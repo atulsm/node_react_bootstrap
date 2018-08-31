@@ -1,3 +1,4 @@
+/* eslint-disable */
 // For a detailed explanation regarding each configuration property, visit:
 // https://jestjs.io/docs/en/configuration.html
 
@@ -21,7 +22,7 @@ module.exports = {
   // collectCoverage: false,
 
   // An array of glob patterns indicating a set of files for which coverage information should be collected
-  // collectCoverageFrom: null,
+   collectCoverageFrom: ['api/**/*.{js,jsx}'],
 
   // The directory where Jest should output its coverage files
   coverageDirectory: ".coverage",
@@ -178,3 +179,4 @@ module.exports = {
   // Whether to use watchman for file crawling
   // watchman: true,
 };
+/* eslint-enable */

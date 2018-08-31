@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run lint && node api/app.js",
     "lint": "eslint api",
-    "test": "jest --coverage"
+    "test": "jest"
   },
   "devDependencies": {
     "eslint": "^5.4.0",

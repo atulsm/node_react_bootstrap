@@ -2,12 +2,14 @@
   "name": "node_react_bootstrap",
   "version": "1.0.0",
   "description": "Bootstap app for node with all best practices",
-  "main": "index.js",
+  "main": "api/util.js",
   "scripts": {
     "start": "npm run lint && node api/app.js",
-    "build": "npm run start",
+    "build": "npm run clean && npm run start",
+    "clean": "rimraf dist .coverage",
     "lint": "eslint api",
-    "test": "jest"
+    "test": "jest",
+    "publish": "npm login && npm publish"
   },
   "devDependencies": {
     "eslint": "^5.4.0",

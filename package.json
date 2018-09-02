@@ -1,6 +1,6 @@
 {
   "name": "node_react_bootstrap",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Bootstap app for node with all best practices",
   "main": "api/sample/util.js",
   "scripts": {
@@ -9,7 +9,8 @@
     "clean": "rimraf dist .coverage",
     "lint": "eslint api",
     "test": "jest",
-    "publish": "npm login && npm publish"
+    "publish": "npm login && npm publish",
+    "dockerbuild": "docker build -t atulsm/node-web-app ."
   },
   "dependencies": {
     "express": "^4.16.3"

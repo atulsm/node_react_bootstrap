@@ -5,7 +5,7 @@
   "main": "api/sample/util.js",
   "scripts": {
     "start": "npm run lint && node api/sample/server.js",
-    "build": "npm run clean && npm run start",
+    "build": "npm run clean ",
     "clean": "rimraf dist .coverage",
     "lint": "eslint api",
     "test": "jest",

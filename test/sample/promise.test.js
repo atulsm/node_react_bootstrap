@@ -1,4 +1,4 @@
-const promise = require('../../api/promise');
+const promise = require('../../api/sample/promise');
 
 test('Test promise resolve of new phone, good response', () => promise
   .willIGetNewPhone(true)

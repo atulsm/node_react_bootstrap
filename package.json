@@ -1,10 +1,10 @@
 {
   "name": "node_react_bootstrap",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Bootstap app for node with all best practices",
-  "main": "api/util.js",
+  "main": "api/sample/util.js",
   "scripts": {
-    "start": "npm run lint && node api/app.js",
+    "start": "npm run lint && node api/sample/server.js",
     "build": "npm run clean && npm run start",
     "clean": "rimraf dist .coverage",
     "lint": "eslint api",
